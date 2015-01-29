@@ -16,15 +16,19 @@ $(document).ready(function() {
     }, 4000);  
 
 
-	var divs = $('#musician-bg, #bookmark');
-    limit = 600;
+	setTimeout(function(){
+		$('.poem').show();
 
-    $(window).on('scroll', function() {
-		var st = $(this).scrollTop();
+		var divs = $('#musician-bg, #bookmark');
+	    limit = 600;
 
-	    if (st <= limit) {
-	      divs.css({ 'opacity' : (1 - st/limit) });
-		}
-	});  
+	    $(window).on('scroll', function() {
+			var scrollPos = $(this).scrollTop();
+
+		    if (scrollPos <= limit) {
+		      divs.css({ 'opacity' : (1 - scrollPos/limit) });
+			}
+		});  
+	}, 12000);
 
 });
