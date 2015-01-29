@@ -1,5 +1,43 @@
+* {
+	color: #262626;
+}
+
+body {
+	margin: 0px;
+}
+
+hr {
+	border: none;
+	background-color: #262626;
+	height: 1px;
+}
+
+h1 {
+	font-family: 'Playfair Display';
+	font-size: 40px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+h3 {
+	font-family: 'Playfair Display';
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
 #musician-bg {
+	margin-top: 10vh;
 	position: fixed;
-	background-image: url(images/cover2.jpg);
+	background-image: url(images/wanderer.png);
 	background-size: cover;
+	height: 90vh;
+	width: 90vh;
+	z-index: -1;
+}
+
+.front-page {
+	margin-top: 5vh;
+	margin-left: 60%;
+	display: inline-block;
+	z-index: 1;
 }
