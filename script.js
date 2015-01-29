@@ -1,7 +1,17 @@
 $(document).ready(function() {
 
 	$("#audio")[0].loop = true;
-	// $("#audio")[0].play();
+	$("#audio")[0].play();
+
+	$('.icon').click(function() {
+		if ($("#audio")[0].paused == false) {
+		    $("#audio")[0].pause();
+		    // alert('music paused');
+		} else {
+		    $("#audio")[0].play();
+		    // alert('music playing');
+		}
+	});
 
 	$('#musician-bg').hide();
 
@@ -13,7 +23,7 @@ $(document).ready(function() {
 
 	 setTimeout(function(){
         $('#bookmark').fadeIn(8000);
-    }, 4000);  
+    }, 1000);  
 
 
 	setTimeout(function(){
@@ -29,6 +39,6 @@ $(document).ready(function() {
 		      divs.css({ 'opacity' : (1 - scrollPos/limit) });
 			}
 		});  
-	}, 12000);
+	}, 1000);
 
 });
