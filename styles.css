@@ -1,0 +1,5 @@
+#musician-bg {
+	position: fixed;
+	background-image: url(images/cover2.jpg);
+	background-size: cover;
+}
