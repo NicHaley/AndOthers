@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
-	 $("#audio")[0].play();
+	$("#audio")[0].loop = true;
+	// $("#audio")[0].play();
 
 	$('#musician-bg').hide();
 
@@ -12,6 +13,18 @@ $(document).ready(function() {
 
 	 setTimeout(function(){
         $('#bookmark').fadeIn(8000);
-    }, 4000);    
+    }, 4000);  
+
+
+	var divs = $('#musician-bg, #bookmark');
+    limit = 600;
+
+    $(window).on('scroll', function() {
+		var st = $(this).scrollTop();
+
+	    if (st <= limit) {
+	      divs.css({ 'opacity' : (1 - st/limit) });
+		}
+	});  
 
 });
