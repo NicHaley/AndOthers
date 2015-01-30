@@ -170,7 +170,7 @@ p {
 }
 
 
-@media (max-width: 1200px) {
+@media (min-width: 800px) and (max-width: 1200px) {
 
 	#musician-bg {
 		margin-top: 20vh;
@@ -205,7 +205,45 @@ p {
 	}
 }
 
+@media (min-width: 550px) and (max-width: 800px) {
+	#musician-bg {
+		margin-top: 25vh;
+		margin-bottom: 5vh;
+		height: 70vh;
+		width: 70vh;
+		margin-left: -150px;
+	}
 
+	#bookmark {
+		right: 3%;
+		height: 400px;
+		width: 200px;
+	}
+
+	#bookmark:after {
+		content: '';
+		display: block;
+		border-left: 100px solid transparent;
+		border-right: 100px solid transparent;
+		border-bottom: 35px solid transparent;
+		border-bottom-color: white;
+		position: absolute;
+		bottom: 0;
+	}
+
+	#bookmark-text h1 {
+		margin-top: 10vh;
+		color: white;
+	}
+
+	.poems {
+		display: block;
+		margin-left: 5%;
+		margin-right: 5%;
+		line-height: 250%;
+		/*background-color: #d6d6d6;*/
+	}
+}
 
 
 
