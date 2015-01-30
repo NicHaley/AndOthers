@@ -63,7 +63,7 @@ p {
 #bookmark {
 	position:absolute;
 	top: 0px;
-	right: 100px;
+	right: 15%;
 	display: inline-block;
 	z-index: 1;
 	background-color: #191919;
@@ -99,7 +99,7 @@ p {
 .poem-container {
 	color: #191919;
 	display: none;
-	margin-top: 600px;
+	margin-top: 400px;
 	width: 100%;
 	background-color: white;
 }
@@ -112,11 +112,27 @@ p {
 	/*background-color: #d6d6d6;*/
 }
 
-.p-first, .p-third {
+.p-first {
 	text-align: left;
+	padding-left: 0
 }
 
-.p-second, .p-fourth, .p-fifth {
+.p-second {
+	text-align: left;
+	padding-left: 8%;
+}
+
+.p-third {
+	text-align: left;
+	padding-left: 16%;
+}
+
+.p-fourth {
+	text-align: left;
+	padding-left: 24%;
+}
+
+.p-fifth {
 	text-align: right;
 }
 
