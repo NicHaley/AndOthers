@@ -53,7 +53,7 @@ p {
 #musician-bg {
 	margin-top: 10vh;
 	position: fixed;
-	background-image: url(images/wanderer.png);
+	background-image: url(Images/wanderer.png);
 	background-size: cover;
 	height: 90vh;
 	width: 90vh;
@@ -154,7 +154,7 @@ p {
 	width: 100%;
 	height: 400px;
 	background-size: cover;
-	background-image: url(images/saskatchewan3.jpg);
+	background-image: url(Images/saskatchewan3.jpg);
 	background-position: 50% 70%;
 	clear: both;
 }
