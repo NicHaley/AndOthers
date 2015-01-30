@@ -1,5 +1,4 @@
 * {
-	color: #262626;
 	font-family: 'Playfair Display';
 }
 
@@ -97,30 +96,74 @@ p {
 	color: white;
 }
 
-.poem {
+.poem-container {
+	color: #191919;
 	display: none;
 	margin-top: 600px;
-	height: 100vh;
 	width: 100%;
 	background-color: white;
 }
 
-.part1 {
+.poems {
 	display: block;
-	margin-left: 15%;
+	margin-left: 20%;
+	margin-right: 20%;
+	line-height: 300%;
+	/*background-color: #d6d6d6;*/
 }
 
-/*#sask-bg {
-	display: inline-block;
-	float: left;
-	margin-left: 20%;
-	width: 400px;
-	height: 100%;
+.p-first, .p-third {
+	text-align: left;
+}
+
+.p-second, .p-fourth, .p-fifth {
+	text-align: right;
+}
+
+#first-line {
+	position: absolute;
+	top: 180px;
+	background-color: #191919;
+	color: white;
+	width: 100%;
+	text-align: center;
+	opacity: 0.8;
+}
+
+#sask-bg {
+	position: relative;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	height: 400px;
 	background-size: cover;
 	background-image: url(images/saskatchewan3.jpg);
-	background-position-x: 890px;
-	background-repeat: none;  
-	}*/
+	background-position: 50% 70%;
+	clear: both;
+}
+
+.end {
+	width: 100%;
+	height: 50vh;
+	text-align: center;
+}
+
+.end h2 {
+	padding-top: 23vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
