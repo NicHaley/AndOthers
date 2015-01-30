@@ -170,8 +170,40 @@ p {
 }
 
 
+@media (max-width: 1200px) {
 
+	#musician-bg {
+		margin-top: 20vh;
+		height: 80vh;
+		width: 80vh;
+		margin-left: -100px;
+	}
 
+	#bookmark {
+		right: 5%;
+		height: 500px;
+		width: 250px;
+	}
+
+	#bookmark:after {
+		content: '';
+		display: block;
+		border-left: 125px solid transparent;
+		border-right: 125px solid transparent;
+		border-bottom: 40px solid transparent;
+		border-bottom-color: white;
+		position: absolute;
+		bottom: 0;
+	}
+
+	.poems {
+		display: block;
+		margin-left: 10%;
+		margin-right: 10%;
+		line-height: 300%;
+		/*background-color: #d6d6d6;*/
+	}
+}
 
 
 

@@ -1,6 +1,5 @@
 $(document).ready(function() {
 
-
 	setTimeout(function(){
 		$("#audio")[0].loop = true;
 		$("#audio")[0].play();
@@ -14,7 +13,7 @@ $(document).ready(function() {
 			    // alert('music playing');
 			}
 		});
-	}, 1000);
+	}, 500);
 
 	$('#musician-bg').hide();
 
