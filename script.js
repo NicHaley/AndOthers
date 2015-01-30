@@ -25,7 +25,7 @@ $(document).ready(function() {
 
 	 setTimeout(function(){
         $('#bookmark').fadeIn(8000);
-    }, 1000);  
+    }, 4000);  
 
 
 	setTimeout(function(){
@@ -59,6 +59,6 @@ $(document).ready(function() {
 				}, 1000);
 			}
 		});  
-	}, 1000);
+	}, 12500);
 
 });
